@@ -64,7 +64,7 @@ const HomePage = () => {
                             <div className="absolute top-1/2 left-1/2 -z-10 gradient w-3/4 -translate-x-1/2 h-3/4 -translate-y-1/2 inset-0 blur-[10rem]"></div>
                             <div className="-m-2 rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl">
                                 <Image
-                                    src="/assets/dashboard.svg"
+                                    src="/assets/dashboard.png"
                                     alt="banner image"
                                     width={1200}
                                     height={1200}
@@ -85,7 +85,7 @@ const HomePage = () => {
                     <div className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="The Process" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Three steps to build your dream website
+                            How does Lingo Work?
                         </h2>
                         <p className="text-muted-foreground mt-6">
                             Turn your vision into reality in just 3 simple steps

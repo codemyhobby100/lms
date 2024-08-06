@@ -3,18 +3,18 @@ import { Icons } from "@/components";
 export const perks = [
     {
         icon: Icons.auth,
-        title: "Sign Up",
-        info: "Create your free account to get started with Astra.",
+        title: "Create Account",
+        info: "Sign up quickly and easily to access all of Lingo's features.",
     },
     {
         icon: Icons.customize,
-        title: "Customize",
-        info: "Choose a template and customize it to fit your needs.",
+        title: "hoose Your Language",
+        info: "Select your desired language from our diverse options, including Yoruba, Hausa, and Igbo.",
     },
     {
         icon: Icons.launch,
-        title: "Launch",
-        info: "Publish your website and share it with the world.",
+        title: "Start Learning",
+        info: "Begin your journey with interactive lessons, practice exercises, and real-world scenarios.",
     },
 ];
 
