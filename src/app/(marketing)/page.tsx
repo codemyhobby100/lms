@@ -11,6 +11,7 @@ import { cn } from "@/lib/utils";
 import { ArrowRight, ChevronRight, UserIcon, Zap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { CardHoverEffectDemo } from "../snippet/card-hover-effect-snippet";
 
 const HomePage = () => {
 
@@ -135,7 +136,7 @@ const HomePage = () => {
                 </Container>
                 <Container>
                     <div className="flex flex-col items-center justify-center py-10 md:py-20 w-full">
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-8">
+                        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-8">
                             {features.map((feature) => (
                                 <div key={feature.title} className="flex flex-col items-start lg:items-start px-0 md:px-0">
                                     <div className="flex items-center justify-center">
@@ -149,7 +150,8 @@ const HomePage = () => {
                                     </p>
                                 </div>
                             ))}
-                        </div>
+                        </div> */}
+                        <CardHoverEffectDemo/>
                     </div>
                 </Container>
             </Wrapper>
