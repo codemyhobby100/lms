@@ -1,6 +1,7 @@
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { PiAppStoreLogo, PiHeadsetFill, PiLock, PiMegaphone, PiMonitor, PiStorefront, PiChalkboardTeacherLight } from "react-icons/pi";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
+import { MdOutlineInsights } from "react-icons/md";
 import { MdOutlineAdminPanelSettings } from "react-icons/md";
 
 export function CardHoverEffectDemo() {
@@ -18,19 +19,19 @@ export const projects = [
         <PiStorefront/>
       </div>
     ),
-    title: "Shopify Store Setup",
+    title: "Beginner Essentials",
     description:
-      "You will learn in detailed Videos how to setup your store from scratch to finish.",
+      "Start with the basics and build a strong foundation in your new language with easy-to-follow lessons.",
   },
   {
     icon: (
       <div className="  p-4 rounded-full border-2 text-[20px]">
-        <FaRegMoneyBillAlt/>
+        <MdOutlineInsights />
       </div>
     ),
-    title: "Integration & Payment System",
+    title: "Cultural Insights",
     description:
-      "You will Learn how to Integrate Payment Apps into your store and automate Products Fulfilment.",
+      "Immerse yourself in the culture behind the language with engaging content that brings context to your learning.",
   },
   {
     icon: (
@@ -38,9 +39,9 @@ export const projects = [
         <PiMegaphone/>
       </div>
     ),
-    title: "Ads Setup & Marketing",
+    title: "Interactive Exercises",
     description:
-      "You will Learn how to Promote your Store and Make sales through Ads & marketing channels such as Facebook & Tiktok",
+      "Test your knowledge and improve your skills with fun, interactive activities designed to reinforce your learning.",
   },
   {
     icon: (
@@ -48,9 +49,9 @@ export const projects = [
         <MdOutlineAdminPanelSettings />
       </div>
     ),
-    title: "Business Administration",
+    title: "Speaking Practice",
     description:
-      "Receive guidance from experienced Shopify mentors with personalized feedback and one-on-one sessions.",
+      "Boost your confidence with guided speaking exercises that help you practice pronunciation and conversational skills.",
   },
   {
     icon: (
@@ -58,9 +59,9 @@ export const projects = [
         <PiChalkboardTeacherLight />
       </div>
     ),
-    title: "Mentorship",
+    title: "Vocabulary Expansion",
     description:
-      "Learn essential management techniques, financial planning, and strategic decision-making for your store.",
+      "Grow your vocabulary with targeted lessons and flashcards that make memorization simple and effective.",
   },
   {
     icon: (
@@ -68,8 +69,8 @@ export const projects = [
         <PiHeadsetFill />
       </div>
     ),
-    title: "Support",
+    title: "Progress Tracking",
     description:
-      "Access live Q&A sessions, a community forum, and 24/7 assistance to help you stay on track.",
+      "Stay motivated by tracking your learning journey, with personalized feedback and goal-setting tools.",
   },
 ];

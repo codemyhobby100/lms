@@ -120,12 +120,12 @@ const HomePage = () => {
                 <div className="hidden md:block absolute bottom-0 -left-1/3 w-72 h-72 bg-indigo-600 rounded-full blur-[10rem] -z-10"></div>
                 <Container>
                     <div className="max-w-md mx-auto text-start md:text-center">
-                        <SectionBadge title="Features" />
+                        <SectionBadge title="Explore" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Discover our powerful features
+                            Discover Your Path to Language Mastery
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Astra offers a range of features to help you build a stunning website in no time
+                            Whether you're a beginner or seeking to enhance your skills, find the right path for you.
                         </p>
                     </div>
                 </Container>
