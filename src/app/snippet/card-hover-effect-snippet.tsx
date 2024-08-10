@@ -1,9 +1,9 @@
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { PiAppStoreLogo, PiHeadsetFill, PiLock, PiMegaphone, PiMonitor, PiStorefront, PiChalkboardTeacherLight } from "react-icons/pi";
 import { LiaChalkboardTeacherSolid } from "react-icons/lia";
+import { RiSpeakLine } from "react-icons/ri";
 import { MdOutlineInsights } from "react-icons/md";
-import { MdOutlineAdminPanelSettings } from "react-icons/md";
-
+import { MdOutlineQueryStats } from "react-icons/md";
 export function CardHoverEffectDemo() {
   return (
     <div className="max-w-5xl mx-auto px-8">
@@ -46,7 +46,7 @@ export const projects = [
   {
     icon: (
       <div className="border-2 text-[20px] p-4 rounded-full">
-        <MdOutlineAdminPanelSettings />
+        <RiSpeakLine />
       </div>
     ),
     title: "Speaking Practice",
@@ -66,7 +66,7 @@ export const projects = [
   {
     icon: (
       <div className="border-2 text-[20px] p-4 rounded-full">
-        <PiHeadsetFill />
+        <MdOutlineQueryStats />
       </div>
     ),
     title: "Progress Tracking",

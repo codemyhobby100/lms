@@ -225,7 +225,7 @@ const HomePage = () => {
                             What people are saying
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            See how Astra empowers businesses of all sizes. Here&apos;s what real people are saying on Twitter
+                            See how  Lingo empowers businesses of all sizes. Here&apos;s what real people are saying on Twitter
                         </p>
                     </div>
                 </Container>
@@ -289,10 +289,10 @@ const HomePage = () => {
                     <LampContainer>
                         <div className="flex flex-col items-center justify-center relative w-full text-center">
                             <h2 className="text-4xl lg:text-5xl xl:text-6xl lg:!leading-snug font-semibold mt-8">
-                                From Idea to Launch <br /> Faster Than Ever
+                              Unlocking Your <br /> Dual-Language Potential
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                                Build stunning websites with Astra&apos;s intuitive drag-and-drop builder and powerful AI assistant
+                                Start your journey to mastering a second language with confidence, opening doors to new opportunities.
                             </p>
                             <Button variant="white" className="mt-6" asChild>
                                 <Link href="/sign-in">
