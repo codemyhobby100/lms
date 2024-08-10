@@ -1,6 +1,6 @@
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { PiAppStoreLogo, PiHeadsetFill, PiLock, PiMegaphone, PiMonitor, PiStorefront, PiChalkboardTeacherLight } from "react-icons/pi";
-import { FaRegMoneyBillAlt } from "react-icons/fa";
+import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import { MdOutlineInsights } from "react-icons/md";
 import { MdOutlineAdminPanelSettings } from "react-icons/md";
 
@@ -36,7 +36,7 @@ export const projects = [
   {
     icon: (
       <div className="border-2 text-[20px]  p-4 rounded-full">
-        <PiMegaphone/>
+        <LiaChalkboardTeacherSolid />
       </div>
     ),
     title: "Interactive Exercises",
