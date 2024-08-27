@@ -4,17 +4,17 @@ export const perks = [
     {
         icon: Icons.auth,
         title: "Create Account",
-        info: "Sign up quickly and easily to access all of Lingo's features.",
+        info: "Sign up quickly and easily to access personalized counseling services.",
     },
     {
         icon: Icons.customize,
-        title: "hoose Your Language",
-        info: "Select your desired language from our diverse options, including Yoruba, Hausa, and Igbo.",
+        title: "Select Counseling Type",
+        info: "Choose the type of support you need, whether it's academic guidance, emotional support, or career advice.",
     },
     {
         icon: Icons.launch,
-        title: "Start Learning",
-        info: "Begin your journey with interactive lessons, practice exercises, and real-world scenarios.",
+        title: "Reach Out",
+        info: "Log in to your personalized portal, fill out the form, and connect directly with a counselor for tailored support.",
     },
 ];
 
@@ -57,29 +57,29 @@ export const pricingCards = [
         description: "Perfect for trying out plura",
         price: "Free",
         duration: "",
-        highlight: "Key features",
+        highlight: "Ideal for exploring EduSupport",
         buttonText: "Start for free",
-        features: ["Limited projects", "1 Team member", "Basic features"],
+        features: ["Limited counseling requests", "1 user", "Basic features"],
         priceId: "",
     },
     {
         title: "Unlimited Saas",
-        description: "The ultimate agency kit",
+        description: "For enhanced access and resources",
         price: "$199",
         duration: "month",
         highlight: "Key features",
         buttonText: "Upgrade to Pro",
-        features: ["Unlimited projects", "5 Team members", "Advanced design tools", "Customizable domain"],
+        features: ["Unlimited counseling requests", "5 users", "Advanced support tools", "Customizable user interface"],
         priceId: "price_1OYxkqFj9oKEERu1KfJGWxgN",
     },
     {
         title: "Enterprise",
-        description: "For serious agency owners",
+        description: "For comprehensive and dedicated support",
         price: "$399",
         duration: "month",
         highlight: "Everything in Starter, plus",
         buttonText: "Upgrade to Enterprise",
-        features: ["Unlimited projects", "Unlimited Team members", "Custom branding", "Priority support (24/7)"],
+        features: ["Unlimited counseling requests", "Unlimited users", "Custom branding", "Priority 24/7 support"],
         priceId: "price_1OYxkqFj9oKEERu1NbKUxXxN",
     },
 ];
@@ -113,23 +113,23 @@ export const bentoCards = [
 
 export const reviews = [
     {
-        name: "Jack",
-        username: "@jack",
+        name: "Ayo",
+        username: "@ayo",
         body: "I've never seen anything like this before. It's amazing. I love it.",
     },
     {
-        name: "Jill",
-        username: "@jill",
+        name: "James",
+        username: "@gaaga",
         body: "I don't know what to say. I'm speechless. This is amazing.",
     },
     {
-        name: "John",
-        username: "@john",
+        name: "Faith",
+        username: "@faith",
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
     {
-        name: "Jane",
-        username: "@jane",
+        name: "Olu",
+        username: "@olu",
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
     {
@@ -138,8 +138,8 @@ export const reviews = [
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
     {
-        name: "James",
-        username: "@james",
+        name: "Peter",
+        username: "@peter",
         body: "I'm at a loss for words. This is amazing. I love it.",
     },
 ];

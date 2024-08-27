@@ -16,7 +16,7 @@ const Footer = () => {
                         <Icons.logo className="w-7 h-7" />
                     </div>
                     <p className="text-muted-foreground mt-4 text-sm text-start">
-                        Build beautiful, functional websites, without writing code
+                    Get the support to overcome student life challenges.
                     </p>
                     {/* <span className="mt-4 text-neutral-200 text-sm flex items-center">
                         Made in India with
@@ -28,17 +28,17 @@ const Footer = () => {
                     <div className="md:grid md:grid-cols-2 md:gap-8">
                         <div className="">
                             <h3 className="text-base font-medium text-white">
-                                Product
+                                Quick Links
                             </h3>
                             <ul className="mt-4 text-sm text-muted-foreground">
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Features
+                                        Home
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Pricing
+                                        Features
                                     </Link>
                                 </li>
                                 <li className="mt-2">
@@ -48,14 +48,14 @@ const Footer = () => {
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Integration
+                                        Price
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="mt-10 md:mt-0 flex flex-col">
                             <h3 className="text-base font-medium text-white">
-                                Integrations
+                                Socials
                             </h3>
                             <ul className="mt-4 text-sm text-muted-foreground">
                                 <li className="">
@@ -110,9 +110,6 @@ const Footer = () => {
                             </h3>
                             <ul className="mt-4 text-sm text-muted-foreground">
                                 <li className="">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        About Us
-                                    </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">

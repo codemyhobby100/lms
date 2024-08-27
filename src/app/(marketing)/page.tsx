@@ -36,22 +36,22 @@ const HomePage = () => {
                             <span className="h-full w-full blur-md absolute bottom-0 inset-x-0 bg-gradient-to-tr from-primary/40"></span>
                             <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center justify-center gap-1.5">
                                 <Image src="/icons/sparkles-dark.svg" alt="✨" width={24} height={24} className="w-4 h-4" />
-                                Introducing Lingo
+                                Introducing EduSupport
                                 <ChevronRight className="w-4 h-4" />
                             </span>
                         </button>
 
                         <div className="flex flex-col items-center mt-8 max-w-3xl w-11/12 md:w-full">
-                            <h1 className="text-4xl md:text-6xl lg:textxl md:!leading-snug font-semibold text-center bg-clip-text bg-gradient-to-b from-gray-50 to-gray-50 text-transparent">
-                                Your Path to Bilingual Proficiency
+                            <h1 className="text-4xl md:text-5xl lg:textxl md:!leading-snug font-semibold text-center bg-clip-text bg-gradient-to-b from-gray-50 to-gray-50 text-transparent">
+                                Supporting Your Academic and Emotional Succes
                             </h1>
                             <p className="text-base md:text-lg text-foreground/80 mt-6 text-center">
-                                Empower yourself with the skills to communicate effectively in a new language. Start your learning journey today.
+                            Get the support to overcome student life challenges. Thrive academically and personally. Begin your journey to success today.
                             </p>
                             <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
                                 <Link href="#" className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none">
                                     <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
-                                        ✨ {"  "} Where Learning Meets Fun!
+                                        ✨ {"  "} Where Growth Meets Enjoyment!
                                     </p>
                                     <Button size="sm" className="rounded-full hidden lg:flex border border-foreground/20">
                                         Get Started
@@ -65,7 +65,7 @@ const HomePage = () => {
                             <div className="absolute top-1/2 left-1/2 -z-10 gradient w-3/4 -translate-x-1/2 h-3/4 -translate-y-1/2 inset-0 blur-[10rem]"></div>
                             <div className="-m-2 rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl">
                                 <Image
-                                    src="/assets/dashboard.png"
+                                    src="/assets/councelling.jpg"
                                     alt="banner image"
                                     width={1200}
                                     height={1200}
@@ -86,10 +86,10 @@ const HomePage = () => {
                     <div className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="The Process" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            How does Lingo Work?
+                            How Does EduSupport Work?
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Turn your vision into reality in just 3 simple steps
+                            Get the guidance you need in just 3 simple steps.
                         </p>
                     </div>
                 </Container>
@@ -122,10 +122,10 @@ const HomePage = () => {
                     <div className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="Explore" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Discover Your Path to Language Mastery
+                            Navigate Your Path to Success
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Whether you're a beginner or seeking to enhance your skills, find the right path for you.
+                        Explore our range of features designed to support you academically and personally. Find the tools and resources that fit your unique needs.
                         </p>
                     </div>
                 </Container>
@@ -163,10 +163,10 @@ const HomePage = () => {
                     <div className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="Pricing" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Unlock the right plan for your business
+                            Find the Perfect Plan for Your Needs
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Choose the best plan for your business and start building your dream website today
+                        Select the plan that best suits your counseling requirements and start accessing personalized support tailored to your goals today.
                         </p>
                     </div>
                 </Container>
@@ -225,7 +225,7 @@ const HomePage = () => {
                             What people are saying
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            See how  Lingo empowers businesses of all sizes. Here&apos;s what real people are saying on Twitter
+                        Hear from those who’ve experienced the impact of EduSupport. Discover how our personalized counseling services are making a difference in students’ lives.
                         </p>
                     </div>
                 </Container>
@@ -289,10 +289,10 @@ const HomePage = () => {
                     <LampContainer>
                         <div className="flex flex-col items-center justify-center relative w-full text-center">
                             <h2 className="text-4xl lg:text-5xl xl:text-6xl lg:!leading-snug font-semibold mt-8">
-                              Unlocking Your <br /> Dual-Language Potential
+                                Unlock Your <br /> Counseling Potential
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                                Start your journey to mastering a second language with confidence, opening doors to new opportunities.
+                                Begin your journey to academic and personal growth with confidence, and open doors to new opportunities.
                             </p>
                             <Button variant="white" className="mt-6" asChild>
                                 <Link href="/sign-in">
@@ -311,7 +311,7 @@ const HomePage = () => {
                                     Join our newsletter
                                 </h4>
                                 <p className="text-base text-muted-foreground">
-                                    Be up to date with everything about AI builder
+                                    Be up to date with everything about EduSupport
                                 </p>
                             </div>
                             <div className="flex flex-col items-start gap-2 md:min-w-80 mt-5 md:mt-0 w-full md:w-max">

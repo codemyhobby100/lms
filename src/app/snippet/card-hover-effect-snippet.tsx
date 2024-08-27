@@ -1,8 +1,12 @@
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import { PiAppStoreLogo, PiHeadsetFill, PiLock, PiMegaphone, PiMonitor, PiStorefront, PiChalkboardTeacherLight } from "react-icons/pi";
+import { LuLayoutDashboard } from "react-icons/lu";
+import { SiKhanacademy } from "react-icons/si";
 import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 import { RiSpeakLine } from "react-icons/ri";
-import { MdOutlineInsights } from "react-icons/md";
+import { AiTwotoneSchedule } from "react-icons/ai";
+import { MdOutlineMailLock } from "react-icons/md";
+import { MdLocalLibrary } from "react-icons/md";
 import { MdOutlineQueryStats } from "react-icons/md";
 export function CardHoverEffectDemo() {
   return (
@@ -16,52 +20,52 @@ export const projects = [
   {
     icon: (
       <div className="p-4 rounded-full border-2 text-[20px]">
-        <PiStorefront/>
+        <LuLayoutDashboard />
       </div>
     ),
-    title: "Beginner Essentials",
+    title: "Personalized Dashboard",
     description:
-      "Start with the basics and build a strong foundation in your new language with easy-to-follow lessons.",
+      "Access your own customized portal to manage your counseling sessions and resources.",
   },
   {
     icon: (
       <div className="  p-4 rounded-full border-2 text-[20px]">
-        <MdOutlineInsights />
+        <SiKhanacademy />
       </div>
     ),
-    title: "Cultural Insights",
+    title: "Diverse Counseling Options",
     description:
-      "Immerse yourself in the culture behind the language with engaging content that brings context to your learning.",
+      "Choose from a variety of counseling services tailored to academic, emotional, and career support.",
   },
   {
     icon: (
       <div className="border-2 text-[20px]  p-4 rounded-full">
-        <LiaChalkboardTeacherSolid />
+        <MdOutlineMailLock />
       </div>
     ),
-    title: "Interactive Exercises",
+    title: "Confidential Messaging",
     description:
-      "Test your knowledge and improve your skills with fun, interactive activities designed to reinforce your learning.",
+      "Communicate securely with counselors through private messages, ensuring your concerns are addressed discreetly.",
   },
   {
     icon: (
       <div className="border-2 text-[20px] p-4 rounded-full">
-        <RiSpeakLine />
+        <MdLocalLibrary />
       </div>
     ),
-    title: "Speaking Practice",
+    title: "Resource Library",
     description:
-      "Boost your confidence with guided speaking exercises that help you practice pronunciation and conversational skills.",
+      "Explore a curated collection of articles, videos, and tools to help you navigate student life challenges.",
   },
   {
     icon: (
       <div className="border-2 text-[20px] p-4 rounded-full">
-        <PiChalkboardTeacherLight />
+        <AiTwotoneSchedule />
       </div>
     ),
-    title: "Vocabulary Expansion",
+    title: "Appointment Scheduling",
     description:
-      "Grow your vocabulary with targeted lessons and flashcards that make memorization simple and effective.",
+      "Easily book one-on-one sessions with counselors at a time that fits your schedule.",
   },
   {
     icon: (
@@ -69,8 +73,8 @@ export const projects = [
         <MdOutlineQueryStats />
       </div>
     ),
-    title: "Progress Tracking",
+    title: "Progress Monitoring",
     description:
-      "Stay motivated by tracking your learning journey, with personalized feedback and goal-setting tools.",
+      "Track your mental and academic well-being with tools that help you set goals and measure your improvement.",
   },
 ];
