@@ -3,10 +3,10 @@ import { Metadata } from "next";
 export const SITE_CONFIG: Metadata = {
     title: {
         // write a default title for astra a ai powered website builder suggest something unique and catchy don't use the same words of ai powered website builder give a unique name
-        default: "Astra - AI Powered Website Builder",
+        default: "EduSupport - Begin your journey to success today",
         template: `%s | Astra`
     },
-    description: "Astra is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+    description: "Get the support to overcome student life challenges. Thrive academically and personally. Begin your journey to success today.",
     icons: {
         icon: [
             {
@@ -16,8 +16,8 @@ export const SITE_CONFIG: Metadata = {
         ]
     },
     openGraph: {
-        title: "Astra - AI Powered Website Builder",
-        description: "Astra is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+        title: "EduSupport - Begin your journey to success today",
+        description: "Get the support to overcome student life challenges. Thrive academically and personally. Begin your journey to success today.",
         images: [
             {
                 url: "/assets/og-image.png",
@@ -26,9 +26,9 @@ export const SITE_CONFIG: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        creator: "@shreyassihasane",
-        title: "Astra - AI Powered Website Builder",
-        description: "Astra is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+        creator: "@cmh",
+        title: "EduSupport - Begin your journey to success today",
+        description: "Get the support to overcome student life challenges. Thrive academically and personally. Begin your journey to success today.",
         images: [
             {
                 url: "/assets/og-image.png",

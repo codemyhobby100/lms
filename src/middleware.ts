@@ -21,7 +21,7 @@ export default clerkMiddleware({ publishableKey, secretKey }, (auth, req) => {
 
   // if there is user and home route is accessed, redirect to dashboard or any other protected route
   if (userId && isHomeRoute(req)) {
-    return NextResponse.rewrite(new URL("/", req.url));
+    return NextResponse.rewrite(new URL("/portal", req.url));
   }
 });
 
