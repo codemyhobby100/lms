@@ -9,13 +9,13 @@ interface Props {
 
 const PortalLayout = ({ children }: Props) => {
     return (
-        <div className="flex flex-col md:flex-row h-screen overflow-hidden">
+        <div className="bg-slate-400 flex flex-col md:flex-row h-screen overflow-hidden">
             <Sidebar>
                 <SidebarBody>
-                    <SidebarLink link={{ label: "Dashboard", href: "/dashboard", icon: <IconHome className="text-white"/> }} />
-                    <SidebarLink link={{ label: "Profile", href: "/profile", icon: <IconUser /> }} />
-                    <SidebarLink link={{ label: "Messages", href: "/messages", icon: <IconMail /> }} />
-                    <SidebarLink link={{ label: "Settings", href: "/settings", icon: <IconSettings /> }} />
+                    <SidebarLink link={{ label: "Dashboard", href: "/portal", icon: <IconHome className="text-white"/> }} />
+                    <SidebarLink link={{ label: "Profile", href: "/portal", icon: <IconUser /> }} />
+                    <SidebarLink link={{ label: "Messages", href: "/portal", icon: <IconMail /> }} />
+                    <SidebarLink link={{ label: "Settings", href: "/portal", icon: <IconSettings /> }} />
                 </SidebarBody>
             </Sidebar>
             <div className="flex-1 flex flex-col overflow-hidden">

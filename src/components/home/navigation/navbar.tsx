@@ -1,12 +1,21 @@
+"use client"; // This directive is required to enable client-side behavior
+
 import { Container, Icons } from "@/components";
 import { buttonVariants } from "@/components/ui/button";
-import { UserButton, } from "@clerk/nextjs";
-import { currentUser } from "@clerk/nextjs/server";
+import { UserButton, useUser } from "@clerk/nextjs";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
-const Navbar = async () => {
+const Navbar = () => {
+    const router = useRouter();
+    const { user, isSignedIn } = useUser(); // Use useUser to get the user and sign-in status
 
-    const user = await currentUser();
+    useEffect(() => {
+        if (isSignedIn) {
+            router.push("/portal"); // Redirect to /portal if the user is signed in
+        }
+    }, [isSignedIn, router]);
 
     return (
         <header className="px-4 h-14 sticky top-0 inset-x-0 w-full bg-background/40 backdrop-blur-lg border-b border-border z-50">
@@ -29,7 +38,7 @@ const Navbar = async () => {
                         </ul>
                     </nav>
                     <div className="flex items-center gap-4">
-                        {user ? (
+                        {isSignedIn ? (
                             <UserButton />
                         ) : (
                             <>
@@ -45,7 +54,7 @@ const Navbar = async () => {
                 </div>
             </Container>
         </header>
-    )
+    );
 };
 
-export default Navbar
+export default Navbar;
