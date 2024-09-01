@@ -1,7 +1,9 @@
 "use client";
 import React, { useRef } from 'react';
-import emailjs from "@emailjs/browser";
-import Swal from 'sweetalert2';
+import dynamic from "next/dynamic";
+
+const Swal = dynamic(() => import('sweetalert2'), { ssr: false });
+const emailjs = dynamic(() => import("@emailjs/browser"), { ssr: false });
 
 const contact = () => {
     const form = useRef();
